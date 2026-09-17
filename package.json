@@ -1,6 +1,7 @@
 {
   "name": "emu8086-theme",
   "publisher": "iLaurx",
+  "license": "MIT",
   "displayName": "Emu8086 Theme",
   "description": "A classic theme for Visual Studio Code inspired by the interface and color palette of the Emu8086 assembler emulator.",
   "version": "0.0.1",
