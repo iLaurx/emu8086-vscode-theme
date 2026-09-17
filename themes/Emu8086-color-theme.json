@@ -1,0 +1,54 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "Emu8086",
+  "type": "light",
+  "colors": {
+    "editor.background": "#E6ECE1",
+    "editor.foreground": "#000000",
+    "editorLineNumber.foreground": "#666666",
+    "editorLineNumber.activeForeground": "#000000",
+    "editorCursor.foreground": "#000000",
+    "editor.selectionBackground": "#C2D2BE",
+    "editor.lineHighlightBackground": "#D9E2D4"
+  },
+  "tokenColors": [
+    {
+      "scope": ["keyword", "storage.type", "storage.modifier", "keyword.control"],
+      "settings": {
+        "foreground": "#0000AA",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#008800",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": ["constant", "support.constant", "number", "constant.numeric"],
+      "settings": {
+        "foreground": "#AA0000"
+      }
+    },
+    {
+      "scope": ["variable", "entity.name.function", "support.function", "variable.parameter.register"],
+      "settings": {
+        "foreground": "#0000AA"
+      }
+    },
+    {
+      "scope": ["string", "string.quoted"],
+      "settings": {
+        "foreground": "#AA00AA"
+      }
+    },
+    {
+      "scope": ["entity.name.tag", "support.class"],
+      "settings": {
+        "foreground": "#0000AA"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "emu8086-theme",
+  "publisher": "iLaurx",
+  "displayName": "Emu8086 Theme",
+  "description": "A classic theme for Visual Studio Code inspired by the interface and color palette of the Emu8086 assembler emulator.",
+  "version": "0.0.1",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/iLaurx/emu8086-vscode-theme"
+  },
+  "engines": {
+    "vscode": "^1.138.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Emu8086",
+        "uiTheme": "vs",
+        "path": "./themes/Emu8086-color-theme.json"
+      }
+    ]
+  }
+}
